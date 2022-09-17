@@ -6,7 +6,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "tsnd --exit-child src/server.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "husky install",
+    "test": ""
   },
   "dependencies": {
     "@prisma/client": "^4.3.1",
@@ -22,6 +24,7 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
+    "husky": "^8.0.1",
     "prisma": "4.3.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^4.8.3"
